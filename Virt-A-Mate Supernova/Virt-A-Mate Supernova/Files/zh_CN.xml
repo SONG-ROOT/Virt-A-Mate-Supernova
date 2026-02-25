@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- 窗口标题 -->
+    <string name="window_title">VAM VAR包管理器</string>
+    
+    <!-- 菜单栏 -->
+    <string name="menu_language">语言</string>
+    <string name="menu_help">帮助</string>
+    
+    <!-- 工具栏 -->
+    <string name="search_placeholder">搜索包名、作者或标签...</string>
+    <string name="sort_label">排序:</string>
+    <string name="random_seed_label">随机种子:</string>
+    <string name="refresh_random">刷新随机</string>
+    <string name="tag_filter_btn">标签筛选</string>
+    <string name="filter_label">筛选: 无</string>
+    <string name="clear_filter_btn">清除筛选</string>
+    <string name="export_filter_csv">导出筛选CSV</string>
+    <string name="select_all_page">全选当前页</string>
+    <string name="clear_selection">清除选择</string>
+    <string name="single_add_tag">单包添加标签</string>
+    <string name="batch_add_tag">批量添加标签</string>
+    <string name="batch_remove_tag">批量删除标签</string>
+    
+    <!-- 分页控件 -->
+    <string name="prev_page">◀ 上一页</string>
+    <string name="next_page">下一页 ▶</string>
+    <string name="page_label">第 {0} 页</string>
+    <string name="jump_label">跳到:</string>
+    <string name="jump_btn">跳转</string>
+    <string name="page_size_label">每页显示:</string>
+    
+    <!-- 操作按钮 -->
+    <string name="find_json_deps">从JSON寻找依赖</string>
+    <string name="export_select_csv">导出选中CSV</string>
+    <string name="locate_package">定位包目录</string>
+    <string name="view_selected">查看选中包</string>
+    <string name="view_all">查看全部包</string>
+    <string name="extract_package">提取包信息</string>
+    
+    <!-- 路径按钮 -->
+    <string name="open_var_dir">打开VAR目录</string>
+    <string name="open_unzip_dir">打开解压目录</string>
+    <string name="open_exe_dir">打开exe目录</string>
+    <string name="open_person_dir">打开person目录</string>
+    <string name="open_scene_dir">打开scene目录</string>
+    
+    <!-- 特殊功能 -->
+    <string name="extract_json_baby">提取JSON中的人物</string>
+    <string name="json_extractor">从json查看某个包的依赖,并从hub补全</string>
+    <string name="ai_analyze">AI包分析</string>
+    <string name="ai_search_placeholder">搜索AI特征描述...</string>
+    <string name="ai_exclude_placeholder">排除ai特征...</string>
+    <string name="file_info_search">File_info搜索</string>
+    <string name="print_selected">打印选中</string>
+    
+    <!-- 状态栏 -->
+    <string name="selected_count">选中: {0} 个包</string>
+    <string name="ready_status">就绪</string>
+    
+    <!-- 对话框标题 -->
+    <string name="tag_adder_title">添加/编辑标签 - 分组显示</string>
+    <string name="tag_filter_title">标签筛选 - 包含/排除</string>
+    <string name="image_viewer_title">图片查看器</string>
+    <string name="multi_tag_filter_title">多标签筛选</string>
+    
+    <!-- 消息提示 -->
+    <string name="no_data_found">没有找到匹配的包</string>
+    <string name="loading_csv_failed">加载CSV失败</string>
+    <string name="csv_file_not_found">找不到CSV文件</string>
+    <string name="no_selected_packages">没有选中的包</string>
+    <string name="single_package_for_location">只能选择一个包进行定位</string>
+    <string name="no_tags_available">没有可筛选的标签</string>
+    <string name="export_success">导出成功</string>
+    <string name="export_failed">导出失败</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_failed">保存失败</string>
+    
+    <!-- 排序选项 -->
+    <string name="sort_author">作者</string>
+    <string name="sort_package_name">包名</string>
+    <string name="sort_image_count">图片数量</string>
+    <string name="sort_dependency_count">依赖数量</string>
+    <string name="sort_version">版本号</string>
+    <string name="sort_reference_count">被引用次数</string>
+    <string name="sort_score">评分</string>
+    <string name="sort_random">随机排序</string>
+    
+    <!-- 排序方向 -->
+    <string name="sort_ascending">升序</string>
+    <string name="sort_descending">降序</string>
+    <string name="sort_random_direction">随机</string>
+</resources>
