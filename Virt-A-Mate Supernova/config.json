@@ -1,0 +1,24 @@
+{
+  "paths": {
+    "unzip_base_dir": "F:\\var_example_unzip",
+    "output_base_dir": "F:\\IAS\\VAM_Test\\VAM_SIMPIST",
+    "var_scan_dir": "F:\\Virt-A-Mate Supernova\\Example Vars"
+  },
+  "window": {
+    "width": 3840,
+    "height": 2160,
+    "maximized": false,
+    "x": 0,
+    "y": 0
+  },
+  "current_thumbnail_size": 512,
+  "current_HoverImageViewer_size": 600,
+  "packages_per_page":"100",
+  "columns":5,
+  "columns筛选":2,
+  "max_figuresize":800,
+  "back_ground_color": "#dbfdff", 
+  "font_color": "#000000", 
+  "font_size": "35px", 
+  "last_opened": "2026-01-31 10:30:00"
+}
