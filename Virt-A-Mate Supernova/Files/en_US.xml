@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Window Title -->
+    <string name="window_title">VAM VAR Package Manager</string>
+    
+    <!-- Menu -->
+    <string name="menu_language">Language</string>
+    <string name="menu_help">Help</string>
+    
+    <!-- Toolbar -->
+    <string name="search_placeholder">Search package name, author or tags...</string>
+    <string name="sort_label">Sort:</string>
+    <string name="random_seed_label">Random seed:</string>
+    <string name="refresh_random">Refresh Random</string>
+    <string name="tag_filter_btn">Tag Filter</string>
+    <string name="filter_label">Filter: None</string>
+    <string name="clear_filter_btn">Clear Filter</string>
+    <string name="export_filter_csv">Export Filtered CSV</string>
+    <string name="select_all_page">Select All Current Page</string>
+    <string name="clear_selection">Clear Selection</string>
+    <string name="single_add_tag">Add Tag to Single</string>
+    <string name="batch_add_tag">Batch Add Tags</string>
+    <string name="batch_remove_tag">Batch Remove Tags</string>
+    
+    <!-- Pagination -->
+    <string name="prev_page">◀ Prev</string>
+    <string name="next_page">Next ▶</string>
+    <string name="page_label">Page {0}</string>
+    <string name="jump_label">Jump to:</string>
+    <string name="jump_btn">Jump</string>
+    <string name="page_size_label">Per page:</string>
+    
+    <!-- Operation Buttons -->
+    <string name="find_json_deps">Find Dependencies in JSON</string>
+    <string name="export_select_csv">Export Selected CSV</string>
+    <string name="locate_package">Locate Package</string>
+    <string name="view_selected">View Selected</string>
+    <string name="view_all">View All</string>
+    <string name="extract_package">Extract Package Info</string>
+    
+    <!-- Path Buttons -->
+    <string name="open_var_dir">Open VAR Directory</string>
+    <string name="open_unzip_dir">Open Unzip Directory</string>
+    <string name="open_exe_dir">Open Exe Directory</string>
+    <string name="open_person_dir">Open Person Directory</string>
+    <string name="open_scene_dir">Open Scene Directory</string>
+    
+    <!-- Special Functions -->
+    <string name="extract_json_baby">Extract JSON Characters</string>
+    <string name="json_extractor">Check Dependencies from JSON and Complete from Hub</string>
+    <string name="ai_analyze">AI Package Analysis</string>
+    <string name="ai_search_placeholder">Search AI Features...</string>
+    <string name="ai_exclude_placeholder">Exclude AI Features...</string>
+    <string name="file_info_search">File Info Search</string>
+    <string name="print_selected">Print Selected</string>
+    
+    <!-- Status Bar -->
+    <string name="selected_count">Selected: {0} packages</string>
+    <string name="ready_status">Ready</string>
+    
+    <!-- Dialog Titles -->
+    <string name="tag_adder_title">Add/Edit Tags - Grouped Display</string>
+    <string name="tag_filter_title">Tag Filter - Include/Exclude</string>
+    <string name="image_viewer_title">Image Viewer</string>
+    <string name="multi_tag_filter_title">Multi-Tag Filter</string>
+    
+    <!-- Messages -->
+    <string name="no_data_found">No matching packages found</string>
+    <string name="loading_csv_failed">Failed to load CSV</string>
+    <string name="csv_file_not_found">CSV file not found</string>
+    <string name="no_selected_packages">No selected packages</string>
+    <string name="single_package_for_location">Only one package can be selected for location</string>
+    <string name="no_tags_available">No tags available for filtering</string>
+    <string name="export_success">Export successful</string>
+    <string name="export_failed">Export failed</string>
+    <string name="save_success">Save successful</string>
+    <string name="save_failed">Save failed</string>
+    
+    <!-- Sort Options -->
+    <string name="sort_author">Author</string>
+    <string name="sort_package_name">Package Name</string>
+    <string name="sort_image_count">Image Count</string>
+    <string name="sort_dependency_count">Dependency Count</string>
+    <string name="sort_version">Version</string>
+    <string name="sort_reference_count">Reference Count</string>
+    <string name="sort_score">Score</string>
+    <string name="sort_random">Random Sort</string>
+    
+    <!-- Sort Directions -->
+    <string name="sort_ascending">Ascending</string>
+    <string name="sort_descending">Descending</string>
+    <string name="sort_random_direction">Random</string>
+</resources>

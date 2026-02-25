@@ -1,0 +1,3995 @@
+{ 
+   "monitorCameraRotation" : { 
+      "x" : "13.55004", 
+      "y" : "0", 
+      "z" : "0"
+   }, 
+   "useSceneLoadPosition" : "false", 
+   "atoms" : [ 
+      { 
+         "id" : "WindowCamera", 
+         "on" : "true", 
+         "type" : "WindowCamera", 
+         "position" : { 
+            "x" : "0.351", 
+            "y" : "1.831", 
+            "z" : "0.155"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "0.351", 
+            "y" : "1.831", 
+            "z" : "0.155"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "position" : { 
+                  "x" : "0.351", 
+                  "y" : "1.831", 
+                  "z" : "0.155"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "0", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "PlayerNavigationPanel", 
+         "on" : "true", 
+         "type" : "PlayerNavigationPanel", 
+         "position" : { 
+            "x" : "0.5", 
+            "y" : "0", 
+            "z" : "0.5"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "0.5", 
+            "y" : "0", 
+            "z" : "0.5"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "position" : { 
+                  "x" : "0.5", 
+                  "y" : "0", 
+                  "z" : "0.5"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "0", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "CoreControl", 
+         "on" : "true", 
+         "type" : "CoreControl", 
+         "storables" : [ 
+            { 
+               "id" : "MotionAnimationMaster", 
+               "triggers" : [ 
+               ]
+            }
+         ]
+      }, 
+      { 
+         "id" : "[CameraRig]", 
+         "on" : "true", 
+         "type" : "VRController", 
+         "position" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "1.5"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "178.5", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup", 
+         "on" : "true", 
+         "type" : "SubScene", 
+         "position" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "SubScene", 
+               "storePath" : "Custom/SubScene/MeshedVR/3PointLightSetup/3 Point Light Setup UI Hidden.json"
+            }, 
+            { 
+               "id" : "AnimationMaster", 
+               "triggers" : [ 
+               ]
+            }, 
+            { 
+               "id" : "control", 
+               "position" : { 
+                  "x" : "0", 
+                  "y" : "0", 
+                  "z" : "0"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "0", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/LightBack", 
+         "on" : "true", 
+         "type" : "InvisibleLight", 
+         "parentAtom" : "3PointLightSetup", 
+         "position" : { 
+            "x" : "0.29", 
+            "y" : "1.833", 
+            "z" : "0.238"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "0.499617", 
+            "y" : "1.349904", 
+            "z" : "-0.7464932"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Light", 
+               "intensity" : "2.650301", 
+               "pointBias" : "0", 
+               "shadowStrength" : "0.1", 
+               "renderType" : "ForcePixel", 
+               "color" : { 
+                  "h" : "0.086", 
+                  "s" : "0.22", 
+                  "v" : "1"
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "position" : { 
+                  "x" : "0.499617", 
+                  "y" : "1.349904", 
+                  "z" : "-0.7464932"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "0", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/LightBackIntensity", 
+         "on" : "true", 
+         "type" : "UISlider", 
+         "parentAtom" : "3PointLightSetup/UIControlsContainer", 
+         "position" : { 
+            "x" : "-0.8499995", 
+            "y" : "1.95", 
+            "z" : "-1"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.8500005", 
+            "y" : "1.45", 
+            "z" : "-1"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "AtomControl", 
+               "hidden" : "true"
+            }, 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Text", 
+               "fontSize" : "80", 
+               "text" : "Light Back Intensity"
+            }, 
+            { 
+               "id" : "TextColor", 
+               "color" : { 
+                  "h" : "0", 
+                  "s" : "0", 
+                  "v" : "0.1985294"
+               }
+            }, 
+            { 
+               "id" : "Trigger", 
+               "value" : "0.6625751", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                     { 
+                        "receiverAtom" : "3PointLightSetup/LightBack", 
+                        "receiver" : "Light", 
+                        "receiverTargetName" : "intensity", 
+                        "startValue" : "0", 
+                        "endValue" : "4", 
+                        "startWithCurrentVal" : "false"
+                     }
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "positionGrid" : "0.05", 
+               "positionGridMode" : "Local", 
+               "position" : { 
+                  "x" : "-0.8500005", 
+                  "y" : "1.45", 
+                  "z" : "-1"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "14.99999", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/LightBackOn", 
+         "on" : "true", 
+         "type" : "UIToggle", 
+         "parentAtom" : "3PointLightSetup/UIControlsContainer", 
+         "position" : { 
+            "x" : "-0.8499995", 
+            "y" : "1.95", 
+            "z" : "-1"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.8500005", 
+            "y" : "1.6", 
+            "z" : "-1"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "AtomControl", 
+               "hidden" : "true"
+            }, 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Text", 
+               "text" : "Light Back On"
+            }, 
+            { 
+               "id" : "TextColor", 
+               "color" : { 
+                  "h" : "0", 
+                  "s" : "0", 
+                  "v" : "0.1985294"
+               }
+            }, 
+            { 
+               "id" : "Trigger", 
+               "value" : "true", 
+               "trigger" : { 
+                  "startActions" : [ 
+                     { 
+                        "receiverAtom" : "3PointLightSetup/LightBack", 
+                        "receiver" : "Light", 
+                        "receiverTargetName" : "on", 
+                        "boolValue" : "true"
+                     }
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "positionGrid" : "0.05", 
+               "positionGridMode" : "Local", 
+               "position" : { 
+                  "x" : "-0.8500005", 
+                  "y" : "1.6", 
+                  "z" : "-1"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "14.99999", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/LightFrontLeft", 
+         "on" : "true", 
+         "type" : "InvisibleLight", 
+         "parentAtom" : "3PointLightSetup", 
+         "position" : { 
+            "x" : "0.29", 
+            "y" : "1.833", 
+            "z" : "0.238"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "0.29", 
+            "y" : "1.833", 
+            "z" : "0.6092629"
+         }, 
+         "containerRotation" : { 
+            "x" : "34.45811", 
+            "y" : "202.1846", 
+            "z" : "2.070909E-06"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Light", 
+               "intensity" : "0.920134", 
+               "pointBias" : "0", 
+               "shadowStrength" : "0.1", 
+               "color" : { 
+                  "h" : "0.086", 
+                  "s" : "0.22", 
+                  "v" : "1"
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "position" : { 
+                  "x" : "0.29", 
+                  "y" : "1.833", 
+                  "z" : "0.6092629"
+               }, 
+               "rotation" : { 
+                  "x" : "34.45811", 
+                  "y" : "202.1846", 
+                  "z" : "2.070909E-06"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/LightFrontLeftIntensity", 
+         "on" : "true", 
+         "type" : "UISlider", 
+         "parentAtom" : "3PointLightSetup/UIControlsContainer", 
+         "position" : { 
+            "x" : "-0.8499995", 
+            "y" : "1.95", 
+            "z" : "-1"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.8500005", 
+            "y" : "1.8", 
+            "z" : "-1"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "AtomControl", 
+               "hidden" : "true"
+            }, 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Text", 
+               "fontSize" : "70", 
+               "text" : "Light Front Left Intensity"
+            }, 
+            { 
+               "id" : "TextColor", 
+               "color" : { 
+                  "h" : "0", 
+                  "s" : "0", 
+                  "v" : "0.1985294"
+               }
+            }, 
+            { 
+               "id" : "Trigger", 
+               "value" : "0.460067", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                     { 
+                        "receiverAtom" : "3PointLightSetup/LightFrontLeft", 
+                        "receiver" : "Light", 
+                        "receiverTargetName" : "intensity", 
+                        "startValue" : "0", 
+                        "endValue" : "2", 
+                        "startWithCurrentVal" : "false"
+                     }
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "positionGrid" : "0.05", 
+               "positionGridMode" : "Local", 
+               "position" : { 
+                  "x" : "-0.8500005", 
+                  "y" : "1.8", 
+                  "z" : "-1"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "14.99999", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/LightFrontLeftOn", 
+         "on" : "true", 
+         "type" : "UIToggle", 
+         "parentAtom" : "3PointLightSetup/UIControlsContainer", 
+         "position" : { 
+            "x" : "-0.8499995", 
+            "y" : "1.95", 
+            "z" : "-1"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.8500005", 
+            "y" : "1.95", 
+            "z" : "-1"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "AtomControl", 
+               "hidden" : "true"
+            }, 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Text", 
+               "fontSize" : "85", 
+               "text" : "Light Front Left On"
+            }, 
+            { 
+               "id" : "TextColor", 
+               "color" : { 
+                  "h" : "0", 
+                  "s" : "0", 
+                  "v" : "0.1985294"
+               }
+            }, 
+            { 
+               "id" : "Trigger", 
+               "value" : "true", 
+               "trigger" : { 
+                  "startActions" : [ 
+                     { 
+                        "receiverAtom" : "3PointLightSetup/LightFrontLeft", 
+                        "receiver" : "Light", 
+                        "receiverTargetName" : "on", 
+                        "boolValue" : "true"
+                     }
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "positionGrid" : "0.05", 
+               "positionGridMode" : "Local", 
+               "position" : { 
+                  "x" : "-0.8500005", 
+                  "y" : "1.95", 
+                  "z" : "-1"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "14.99999", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/LightFrontRight", 
+         "on" : "true", 
+         "type" : "InvisibleLight", 
+         "parentAtom" : "3PointLightSetup", 
+         "position" : { 
+            "x" : "0.29", 
+            "y" : "1.833", 
+            "z" : "0.238"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.5187473", 
+            "y" : "1.361399", 
+            "z" : "0.6727902"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "131.4698", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Light", 
+               "intensity" : "1.27175", 
+               "range" : "7", 
+               "spotAngle" : "110", 
+               "pointBias" : "0", 
+               "shadowStrength" : "0.1", 
+               "color" : { 
+                  "h" : "0.6584297", 
+                  "s" : "0.22", 
+                  "v" : "1"
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "position" : { 
+                  "x" : "-0.5187473", 
+                  "y" : "1.361399", 
+                  "z" : "0.6727902"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "131.4698", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/LightFrontRightIntensity", 
+         "on" : "true", 
+         "type" : "UISlider", 
+         "parentAtom" : "3PointLightSetup/UIControlsContainer", 
+         "position" : { 
+            "x" : "-0.8499995", 
+            "y" : "1.95", 
+            "z" : "-1"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.8500005", 
+            "y" : "2.15", 
+            "z" : "-1"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "AtomControl", 
+               "hidden" : "true"
+            }, 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Text", 
+               "fontSize" : "60", 
+               "text" : "Light Front Right Intensity"
+            }, 
+            { 
+               "id" : "TextColor", 
+               "color" : { 
+                  "h" : "0", 
+                  "s" : "0", 
+                  "v" : "0.1985294"
+               }
+            }, 
+            { 
+               "id" : "Trigger", 
+               "value" : "0.635875", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                     { 
+                        "receiverAtom" : "3PointLightSetup/LightFrontRight", 
+                        "receiver" : "Light", 
+                        "receiverTargetName" : "intensity", 
+                        "startValue" : "0", 
+                        "endValue" : "2", 
+                        "startWithCurrentVal" : "false"
+                     }
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "positionGrid" : "0.05", 
+               "positionGridMode" : "Local", 
+               "position" : { 
+                  "x" : "-0.8500005", 
+                  "y" : "2.15", 
+                  "z" : "-1"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "14.99999", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/LightFrontRightOn", 
+         "on" : "true", 
+         "type" : "UIToggle", 
+         "parentAtom" : "3PointLightSetup/UIControlsContainer", 
+         "position" : { 
+            "x" : "-0.8499995", 
+            "y" : "1.95", 
+            "z" : "-1"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.8500005", 
+            "y" : "2.3", 
+            "z" : "-1"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "AtomControl", 
+               "hidden" : "true"
+            }, 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Text", 
+               "fontSize" : "80", 
+               "text" : "Light Front Right On"
+            }, 
+            { 
+               "id" : "TextColor", 
+               "color" : { 
+                  "h" : "0", 
+                  "s" : "0", 
+                  "v" : "0.1985294"
+               }
+            }, 
+            { 
+               "id" : "Trigger", 
+               "value" : "true", 
+               "trigger" : { 
+                  "startActions" : [ 
+                     { 
+                        "receiverAtom" : "3PointLightSetup/LightFrontRight", 
+                        "receiver" : "Light", 
+                        "receiverTargetName" : "on", 
+                        "boolValue" : "true"
+                     }
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "positionGrid" : "0.05", 
+               "positionGridMode" : "Local", 
+               "position" : { 
+                  "x" : "-0.8500005", 
+                  "y" : "2.3", 
+                  "z" : "-1"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "14.99999", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/UIContainer", 
+         "on" : "false", 
+         "type" : "Empty", 
+         "parentAtom" : "3PointLightSetup", 
+         "position" : { 
+            "x" : "0.5", 
+            "y" : "1", 
+            "z" : "0"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.85", 
+            "y" : "1.3", 
+            "z" : "-1"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "15", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "xRotationLock" : "true", 
+               "zRotationLock" : "true", 
+               "positionGrid" : "0.05", 
+               "positionGridMode" : "Local", 
+               "rotationGridMode" : "Local", 
+               "position" : { 
+                  "x" : "-0.85", 
+                  "y" : "1.3", 
+                  "z" : "-1"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "15", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "Person", 
+         "on" : "true", 
+         "type" : "Person", 
+         "position" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "0", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-2.125307E-08", 
+            "y" : "-2.384186E-07", 
+            "z" : "-1.18278E-07"
+         }, 
+         "containerRotation" : { 
+            "x" : "1.28066E-06", 
+            "y" : "1.947671E-06", 
+            "z" : "8.666969E-07"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "control", 
+               "position" : { 
+                  "x" : "-2.125307E-08", 
+                  "y" : "-2.384186E-07", 
+                  "z" : "-1.18278E-07"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hipControl", 
+               "positionState" : "Comply", 
+               "rotationState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "-0.001089835", 
+                  "y" : "1.006729", 
+                  "z" : "-0.00543278"
+               }, 
+               "localRotation" : { 
+                  "x" : "0", 
+                  "y" : "0", 
+                  "z" : "-2.176691E-14"
+               }
+            }, 
+            { 
+               "id" : "pelvisControl", 
+               "localPosition" : { 
+                  "x" : "-0.001280074", 
+                  "y" : "0.9922533", 
+                  "z" : "0.01096077"
+               }, 
+               "localRotation" : { 
+                  "x" : "5.003877", 
+                  "y" : "0.4927794", 
+                  "z" : "359.7544"
+               }
+            }, 
+            { 
+               "id" : "chestControl", 
+               "jointDriveSpring" : "160", 
+               "jointDriveXTarget" : "-1.481818", 
+               "positionState" : "Comply", 
+               "rotationState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "-0.01398342", 
+                  "y" : "1.214799", 
+                  "z" : "-0.0224365"
+               }, 
+               "localRotation" : { 
+                  "x" : "4.413519", 
+                  "y" : "11.60116", 
+                  "z" : "2.440551"
+               }
+            }, 
+            { 
+               "id" : "headControl", 
+               "positionState" : "Comply", 
+               "rotationState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "-0.007310788", 
+                  "y" : "1.54141", 
+                  "z" : "-0.001076169"
+               }, 
+               "localRotation" : { 
+                  "x" : "1.433764", 
+                  "y" : "6.513435", 
+                  "z" : "0.9127879"
+               }
+            }, 
+            { 
+               "id" : "rHandControl", 
+               "positionState" : "Comply", 
+               "rotationState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "0.2016846", 
+                  "y" : "0.8984712", 
+                  "z" : "-0.05150856"
+               }, 
+               "localRotation" : { 
+                  "x" : "350.8088", 
+                  "y" : "12.85588", 
+                  "z" : "287.946"
+               }
+            }, 
+            { 
+               "id" : "lHandControl", 
+               "positionState" : "Comply", 
+               "rotationState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "-0.221695", 
+                  "y" : "0.9068654", 
+                  "z" : "0.001606912"
+               }, 
+               "localRotation" : { 
+                  "x" : "346.1426", 
+                  "y" : "8.405683", 
+                  "z" : "72.59428"
+               }
+            }, 
+            { 
+               "id" : "rFootControl", 
+               "complyPositionSpring" : "10000", 
+               "positionState" : "Comply", 
+               "rotationState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "0.1329798", 
+                  "y" : "0.04026907", 
+                  "z" : "-0.04114506"
+               }, 
+               "localRotation" : { 
+                  "x" : "21.45627", 
+                  "y" : "16.62395", 
+                  "z" : "4.011391"
+               }
+            }, 
+            { 
+               "id" : "lFootControl", 
+               "complyPositionSpring" : "10000", 
+               "positionState" : "Comply", 
+               "rotationState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "-0.1054706", 
+                  "y" : "0.04409802", 
+                  "z" : "-0.04040805"
+               }, 
+               "localRotation" : { 
+                  "x" : "23.90683", 
+                  "y" : "345.0806", 
+                  "z" : "356.5494"
+               }
+            }, 
+            { 
+               "id" : "neckControl", 
+               "localPosition" : { 
+                  "x" : "-0.01111834", 
+                  "y" : "1.435057", 
+                  "z" : "-0.01266563"
+               }, 
+               "localRotation" : { 
+                  "x" : "11.28873", 
+                  "y" : "7.650112", 
+                  "z" : "359.8857"
+               }
+            }, 
+            { 
+               "id" : "eyeTargetControl", 
+               "mass" : "0.01", 
+               "localPosition" : { 
+                  "x" : "-0.3588675", 
+                  "y" : "1.496377", 
+                  "z" : "0.2581398"
+               }, 
+               "localRotation" : { 
+                  "x" : "2.278753", 
+                  "y" : "295.4453", 
+                  "z" : "31.09443"
+               }
+            }, 
+            { 
+               "id" : "rNippleControl", 
+               "localPosition" : { 
+                  "x" : "0.1148753", 
+                  "y" : "1.264209", 
+                  "z" : "0.112099"
+               }, 
+               "localRotation" : { 
+                  "x" : "14.65482", 
+                  "y" : "217.614", 
+                  "z" : "9.760832"
+               }
+            }, 
+            { 
+               "id" : "lNippleControl", 
+               "localPosition" : { 
+                  "x" : "-0.0823426", 
+                  "y" : "1.261314", 
+                  "z" : "0.146558"
+               }, 
+               "localRotation" : { 
+                  "x" : "13.87849", 
+                  "y" : "161.8675", 
+                  "z" : "349.3163"
+               }
+            }, 
+            { 
+               "id" : "testesControl", 
+               "localPosition" : { 
+                  "x" : "-6.976973E-05", 
+                  "y" : "0.8298352", 
+                  "z" : "0.04005199"
+               }, 
+               "localRotation" : { 
+                  "x" : "6.984726", 
+                  "y" : "359.9533", 
+                  "z" : "0.02991909"
+               }
+            }, 
+            { 
+               "id" : "penisBaseControl", 
+               "localPosition" : { 
+                  "x" : "-9.631979E-05", 
+                  "y" : "0.848663", 
+                  "z" : "0.05916683"
+               }, 
+               "localRotation" : { 
+                  "x" : "6.984726", 
+                  "y" : "359.9533", 
+                  "z" : "0.02991909"
+               }
+            }, 
+            { 
+               "id" : "penisMidControl", 
+               "localPosition" : { 
+                  "x" : "-0.0001190775", 
+                  "y" : "0.8452032", 
+                  "z" : "0.087115"
+               }, 
+               "localRotation" : { 
+                  "x" : "6.984726", 
+                  "y" : "359.9533", 
+                  "z" : "0.02991909"
+               }
+            }, 
+            { 
+               "id" : "penisTipControl", 
+               "localPosition" : { 
+                  "x" : "-0.0001419763", 
+                  "y" : "0.8417607", 
+                  "z" : "0.1152135"
+               }, 
+               "localRotation" : { 
+                  "x" : "6.984726", 
+                  "y" : "359.9533", 
+                  "z" : "0.02991909"
+               }
+            }, 
+            { 
+               "id" : "rElbowControl", 
+               "jointDriveXTarget" : "20.40795", 
+               "positionState" : "Comply", 
+               "rotationState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "0.1826899", 
+                  "y" : "1.129444", 
+                  "z" : "-0.1249742"
+               }, 
+               "localRotation" : { 
+                  "x" : "342.4762", 
+                  "y" : "354.6272", 
+                  "z" : "279.3641"
+               }
+            }, 
+            { 
+               "id" : "lElbowControl", 
+               "jointDriveXTarget" : "-20.40796", 
+               "positionState" : "Comply", 
+               "rotationState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "-0.2098276", 
+                  "y" : "1.11344", 
+                  "z" : "-0.07306048"
+               }, 
+               "localRotation" : { 
+                  "x" : "341.4579", 
+                  "y" : "18.93701", 
+                  "z" : "79.88917"
+               }
+            }, 
+            { 
+               "id" : "rKneeControl", 
+               "complyPositionSpring" : "500", 
+               "jointDriveXTarget" : "-22.61987", 
+               "positionState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "0.1157038", 
+                  "y" : "0.5010648", 
+                  "z" : "0.03914705"
+               }, 
+               "localRotation" : { 
+                  "x" : "8.129317", 
+                  "y" : "6.658535", 
+                  "z" : "2.926223"
+               }
+            }, 
+            { 
+               "id" : "lKneeControl", 
+               "complyPositionSpring" : "500", 
+               "jointDriveXTarget" : "-22.61987", 
+               "positionState" : "Comply", 
+               "localPosition" : { 
+                  "x" : "-0.1007501", 
+                  "y" : "0.4983249", 
+                  "z" : "0.04825917"
+               }, 
+               "localRotation" : { 
+                  "x" : "9.566726", 
+                  "y" : "355.1267", 
+                  "z" : "359.2146"
+               }
+            }, 
+            { 
+               "id" : "rToeControl", 
+               "localPosition" : { 
+                  "x" : "0.1669322", 
+                  "y" : "-0.006304742", 
+                  "z" : "0.06470402"
+               }, 
+               "localRotation" : { 
+                  "x" : "17.82083", 
+                  "y" : "16.7739", 
+                  "z" : "3.477577"
+               }
+            }, 
+            { 
+               "id" : "lToeControl", 
+               "localPosition" : { 
+                  "x" : "-0.1359423", 
+                  "y" : "-0.00849181", 
+                  "z" : "0.06410671"
+               }, 
+               "localRotation" : { 
+                  "x" : "20.31593", 
+                  "y" : "344.9063", 
+                  "z" : "357.1639"
+               }
+            }, 
+            { 
+               "id" : "abdomenControl", 
+               "localPosition" : { 
+                  "x" : "-0.001416321", 
+                  "y" : "0.9641665", 
+                  "z" : "-0.02144946"
+               }, 
+               "localRotation" : { 
+                  "x" : "2.323443", 
+                  "y" : "1.762561", 
+                  "z" : "1.692051"
+               }
+            }, 
+            { 
+               "id" : "abdomen2Control", 
+               "localPosition" : { 
+                  "x" : "-0.003870966", 
+                  "y" : "1.059506", 
+                  "z" : "-0.008712739"
+               }, 
+               "localRotation" : { 
+                  "x" : "349.1804", 
+                  "y" : "2.751251", 
+                  "z" : "2.329131"
+               }
+            }, 
+            { 
+               "id" : "rThighControl", 
+               "jointDriveXTarget" : "22.61987", 
+               "localPosition" : { 
+                  "x" : "0.08003393", 
+                  "y" : "0.8977579", 
+                  "z" : "-0.01126274"
+               }, 
+               "localRotation" : { 
+                  "x" : "355.2547", 
+                  "y" : "4.987134", 
+                  "z" : "4.965751"
+               }
+            }, 
+            { 
+               "id" : "lThighControl", 
+               "jointDriveXTarget" : "22.61987", 
+               "localPosition" : { 
+                  "x" : "-0.08373955", 
+                  "y" : "0.8987921", 
+                  "z" : "-0.009791414"
+               }, 
+               "localRotation" : { 
+                  "x" : "354.3845", 
+                  "y" : "356.4008", 
+                  "z" : "357.1078"
+               }
+            }, 
+            { 
+               "id" : "rArmControl", 
+               "localPosition" : { 
+                  "x" : "0.1205626", 
+                  "y" : "1.376592", 
+                  "z" : "-0.04204691"
+               }, 
+               "localRotation" : { 
+                  "x" : "17.14448", 
+                  "y" : "358.0333", 
+                  "z" : "281.7982"
+               }
+            }, 
+            { 
+               "id" : "lArmControl", 
+               "jointDriveXTarget" : "-53.1301", 
+               "localPosition" : { 
+                  "x" : "-0.1425249", 
+                  "y" : "1.373814", 
+                  "z" : "0.001020004"
+               }, 
+               "localRotation" : { 
+                  "x" : "19.01417", 
+                  "y" : "16.19956", 
+                  "z" : "78.66481"
+               }
+            }, 
+            { 
+               "id" : "rShoulderControl", 
+               "jointDriveXTarget" : "-7.988342", 
+               "jointDriveYTarget" : "5.752882", 
+               "jointDriveZTarget" : "-0.4020386", 
+               "localPosition" : { 
+                  "x" : "0.01063075", 
+                  "y" : "1.368679", 
+                  "z" : "0.01779846"
+               }, 
+               "localRotation" : { 
+                  "x" : "357.8657", 
+                  "y" : "23.52323", 
+                  "z" : "17.66304"
+               }
+            }, 
+            { 
+               "id" : "lShoulderControl", 
+               "jointDriveYTarget" : "-5.752869", 
+               "jointDriveZTarget" : "-0.4020386", 
+               "localPosition" : { 
+                  "x" : "-0.01931814", 
+                  "y" : "1.368327", 
+                  "z" : "0.02306817"
+               }, 
+               "localRotation" : { 
+                  "x" : "358.546", 
+                  "y" : "354.8317", 
+                  "z" : "343.6725"
+               }
+            }, 
+            { 
+               "id" : "hairTool1Control", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "0.3759999", 
+                  "y" : "1.717", 
+                  "z" : "0.02849991"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hairTool1UIControl", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "0.3759999", 
+                  "y" : "1.867", 
+                  "z" : "0.02849991"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hairTool2Control", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "-0.3950001", 
+                  "y" : "1.713", 
+                  "z" : "0.02849993"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hairTool2UIControl", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "-0.3950001", 
+                  "y" : "1.863", 
+                  "z" : "0.02849993"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hairTool3Control", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "0.4709999", 
+                  "y" : "1.689", 
+                  "z" : "0.0284999"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hairTool3UIControl", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "0.712", 
+                  "y" : "1.809", 
+                  "z" : "0.0284999"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hairTool4Control", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "-0.4810001", 
+                  "y" : "1.671", 
+                  "z" : "0.02849993"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hairTool4UIControl", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "-0.711", 
+                  "y" : "1.79", 
+                  "z" : "0.02849995"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hairScalpMaskToolControl", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "0.36", 
+                  "y" : "1.914", 
+                  "z" : "0.02849991"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "hairScalpMaskToolUIControl", 
+               "mass" : "0.01", 
+               "position" : { 
+                  "x" : "0.36", 
+                  "y" : "2.064", 
+                  "z" : "0.02849992"
+               }, 
+               "rotation" : { 
+                  "x" : "1.28066E-06", 
+                  "y" : "1.947671E-06", 
+                  "z" : "8.666969E-07"
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+                  "plugin#0" : "MacGruber.Life.12:/Custom/Scripts/MacGruber/Life/MacGruber_Life.cslist"
+               }
+            }, 
+            { 
+               "id" : "hip", 
+               "relativeRootPosition" : { 
+                  "x" : "-0.0002655787", 
+                  "y" : "-0.03199172", 
+                  "z" : "-0.00126441"
+               }, 
+               "relativeRootRotation" : { 
+                  "x" : "2.037549", 
+                  "y" : "0.336897", 
+                  "z" : "0.1122568"
+               }, 
+               "rootPosition" : { 
+                  "x" : "-0.00135545", 
+                  "y" : "0.974737", 
+                  "z" : "-0.006697286"
+               }, 
+               "rootRotation" : { 
+                  "x" : "2.03755", 
+                  "y" : "0.336899", 
+                  "z" : "0.1122577"
+               }
+            }, 
+            { 
+               "id" : "pelvis", 
+               "position" : { 
+                  "x" : "7.037997E-06", 
+                  "y" : "0.01813279", 
+                  "z" : "0.01702416"
+               }, 
+               "rotation" : { 
+                  "x" : "2.966634", 
+                  "y" : "0.1496794", 
+                  "z" : "359.6365"
+               }
+            }, 
+            { 
+               "id" : "LabiaTrigger", 
+               "trigger" : { 
+                  "displayName" : "LabiaTrigger", 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "VaginaTrigger", 
+               "trigger" : { 
+                  "displayName" : "VaginaTrigger", 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "DeepVaginaTrigger", 
+               "trigger" : { 
+                  "displayName" : "DeepVaginaTrigger", 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "DeeperVaginaTrigger", 
+               "trigger" : { 
+                  "displayName" : "DeeperVaginaTrigger", 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Testes", 
+               "position" : { 
+                  "x" : "0", 
+                  "y" : "-0.195899", 
+                  "z" : "0.05661097"
+               }, 
+               "rotation" : { 
+                  "x" : "-3.415094E-06", 
+                  "y" : "2.95692E-15", 
+                  "z" : "-9.921781E-08"
+               }
+            }, 
+            { 
+               "id" : "rThigh", 
+               "position" : { 
+                  "x" : "0.08191289", 
+                  "y" : "-0.09566241", 
+                  "z" : "-0.01319913"
+               }, 
+               "rotation" : { 
+                  "x" : "350.247", 
+                  "y" : "4.502436", 
+                  "z" : "4.816814"
+               }
+            }, 
+            { 
+               "id" : "rShin", 
+               "position" : { 
+                  "x" : "-0.007598318", 
+                  "y" : "-0.4177528", 
+                  "z" : "0.004584245"
+               }, 
+               "rotation" : { 
+                  "x" : "12.97032", 
+                  "y" : "0.5574919", 
+                  "z" : "357.9742"
+               }
+            }, 
+            { 
+               "id" : "rFoot", 
+               "position" : { 
+                  "x" : "0.005570587", 
+                  "y" : "-0.4418502", 
+                  "z" : "-0.0002233014"
+               }, 
+               "rotation" : { 
+                  "x" : "14.50638", 
+                  "y" : "8.753816", 
+                  "z" : "359.6312"
+               }
+            }, 
+            { 
+               "id" : "rToe", 
+               "position" : { 
+                  "x" : "0.002420254", 
+                  "y" : "-0.00739143", 
+                  "z" : "0.1220393"
+               }, 
+               "rotation" : { 
+                  "x" : "355.788", 
+                  "y" : "0.469993", 
+                  "z" : "359.3455"
+               }
+            }, 
+            { 
+               "id" : "rBigToe", 
+               "position" : { 
+                  "x" : "-0.02986766", 
+                  "y" : "0.007846784", 
+                  "z" : "0.01115608"
+               }, 
+               "rotation" : { 
+                  "x" : "4.511446", 
+                  "y" : "4.388772", 
+                  "z" : "355.3724"
+               }
+            }, 
+            { 
+               "id" : "rSmallToe1", 
+               "position" : { 
+                  "x" : "-0.008338411", 
+                  "y" : "0.008769667", 
+                  "z" : "0.01571372"
+               }, 
+               "rotation" : { 
+                  "x" : "9.360088", 
+                  "y" : "2.867055", 
+                  "z" : "355.1395"
+               }
+            }, 
+            { 
+               "id" : "rSmallToe2", 
+               "position" : { 
+                  "x" : "0.006539323", 
+                  "y" : "0.007488891", 
+                  "z" : "0.01623599"
+               }, 
+               "rotation" : { 
+                  "x" : "13.12342", 
+                  "y" : "1.76719", 
+                  "z" : "355.6252"
+               }
+            }, 
+            { 
+               "id" : "rSmallToe3", 
+               "position" : { 
+                  "x" : "0.01722562", 
+                  "y" : "0.002733242", 
+                  "z" : "0.01288427"
+               }, 
+               "rotation" : { 
+                  "x" : "15.52174", 
+                  "y" : "0.2925506", 
+                  "z" : "353.1353"
+               }
+            }, 
+            { 
+               "id" : "rSmallToe4", 
+               "position" : { 
+                  "x" : "0.03285312", 
+                  "y" : "-0.002438718", 
+                  "z" : "0.009396832"
+               }, 
+               "rotation" : { 
+                  "x" : "17.33199", 
+                  "y" : "356.154", 
+                  "z" : "349.0238"
+               }
+            }, 
+            { 
+               "id" : "LGlute", 
+               "position" : { 
+                  "x" : "-0.05999364", 
+                  "y" : "-0.08293618", 
+                  "z" : "0.0009355275"
+               }, 
+               "rotation" : { 
+                  "x" : "10.00791", 
+                  "y" : "359.9876", 
+                  "z" : "359.9727"
+               }
+            }, 
+            { 
+               "id" : "Gen1", 
+               "position" : { 
+                  "x" : "0", 
+                  "y" : "-0.1748864", 
+                  "z" : "0.07329442"
+               }, 
+               "rotation" : { 
+                  "x" : "-3.415094E-06", 
+                  "y" : "2.95692E-15", 
+                  "z" : "-9.921781E-08"
+               }
+            }, 
+            { 
+               "id" : "Gen2", 
+               "position" : { 
+                  "x" : "0", 
+                  "y" : "-3.552437E-05", 
+                  "z" : "0.0281615"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "0", 
+                  "z" : "0"
+               }
+            }, 
+            { 
+               "id" : "Gen3", 
+               "position" : { 
+                  "x" : "0", 
+                  "y" : "0", 
+                  "z" : "0.02830861"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "0", 
+                  "z" : "0"
+               }
+            }, 
+            { 
+               "id" : "RGlute", 
+               "position" : { 
+                  "x" : "0.06001741", 
+                  "y" : "-0.08292474", 
+                  "z" : "0.0009146945"
+               }, 
+               "rotation" : { 
+                  "x" : "10.09813", 
+                  "y" : "0.01812993", 
+                  "z" : "0.1513623"
+               }
+            }, 
+            { 
+               "id" : "lThigh", 
+               "position" : { 
+                  "x" : "-0.08187012", 
+                  "y" : "-0.09532867", 
+                  "z" : "-0.01322684"
+               }, 
+               "rotation" : { 
+                  "x" : "349.4113", 
+                  "y" : "355.811", 
+                  "z" : "357.7198"
+               }
+            }, 
+            { 
+               "id" : "lShin", 
+               "position" : { 
+                  "x" : "0.007593589", 
+                  "y" : "-0.4177229", 
+                  "z" : "0.004562117"
+               }, 
+               "rotation" : { 
+                  "x" : "15.22675", 
+                  "y" : "359.4843", 
+                  "z" : "2.082223"
+               }
+            }, 
+            { 
+               "id" : "lFoot", 
+               "position" : { 
+                  "x" : "-0.005564207", 
+                  "y" : "-0.4416578", 
+                  "z" : "-0.0001972616"
+               }, 
+               "rotation" : { 
+                  "x" : "15.14527", 
+                  "y" : "350.8068", 
+                  "z" : "359.1109"
+               }
+            }, 
+            { 
+               "id" : "lToe", 
+               "position" : { 
+                  "x" : "-0.002528515", 
+                  "y" : "-0.007122356", 
+                  "z" : "0.1219121"
+               }, 
+               "rotation" : { 
+                  "x" : "355.8875", 
+                  "y" : "359.5298", 
+                  "z" : "0.6729127"
+               }
+            }, 
+            { 
+               "id" : "lBigToe", 
+               "position" : { 
+                  "x" : "0.02972119", 
+                  "y" : "0.007621056", 
+                  "z" : "0.01121946"
+               }, 
+               "rotation" : { 
+                  "x" : "4.598093", 
+                  "y" : "355.5151", 
+                  "z" : "4.708786"
+               }
+            }, 
+            { 
+               "id" : "lSmallToe1", 
+               "position" : { 
+                  "x" : "0.008333238", 
+                  "y" : "0.008759776", 
+                  "z" : "0.01571733"
+               }, 
+               "rotation" : { 
+                  "x" : "9.25671", 
+                  "y" : "356.9586", 
+                  "z" : "4.789384"
+               }
+            }, 
+            { 
+               "id" : "lSmallToe2", 
+               "position" : { 
+                  "x" : "-0.006636705", 
+                  "y" : "0.00726721", 
+                  "z" : "0.01626"
+               }, 
+               "rotation" : { 
+                  "x" : "13.12292", 
+                  "y" : "357.2607", 
+                  "z" : "5.575764"
+               }
+            }, 
+            { 
+               "id" : "lSmallToe3", 
+               "position" : { 
+                  "x" : "-0.01722782", 
+                  "y" : "0.002524996", 
+                  "z" : "0.01295038"
+               }, 
+               "rotation" : { 
+                  "x" : "15.63995", 
+                  "y" : "358.9511", 
+                  "z" : "8.772013"
+               }
+            }, 
+            { 
+               "id" : "lSmallToe4", 
+               "position" : { 
+                  "x" : "-0.03274055", 
+                  "y" : "-0.002431091", 
+                  "z" : "0.009410343"
+               }, 
+               "rotation" : { 
+                  "x" : "17.65919", 
+                  "y" : "3.864799", 
+                  "z" : "10.85457"
+               }
+            }, 
+            { 
+               "id" : "abdomen", 
+               "position" : { 
+                  "x" : "4.110898E-06", 
+                  "y" : "-0.01108862", 
+                  "z" : "-0.01436721"
+               }, 
+               "rotation" : { 
+                  "x" : "0.289314", 
+                  "y" : "1.423946", 
+                  "z" : "1.529143"
+               }
+            }, 
+            { 
+               "id" : "abdomen2", 
+               "position" : { 
+                  "x" : "-1.600501E-05", 
+                  "y" : "0.09581681", 
+                  "z" : "0.008779656"
+               }, 
+               "rotation" : { 
+                  "x" : "346.8925", 
+                  "y" : "1.391712", 
+                  "z" : "0.5509091"
+               }
+            }, 
+            { 
+               "id" : "chest", 
+               "position" : { 
+                  "x" : "-5.593477E-05", 
+                  "y" : "0.1276211", 
+                  "z" : "0.005446952"
+               }, 
+               "rotation" : { 
+                  "x" : "16.28455", 
+                  "y" : "6.882981", 
+                  "z" : "359.8619"
+               }
+            }, 
+            { 
+               "id" : "rCollar", 
+               "position" : { 
+                  "x" : "0.01525791", 
+                  "y" : "0.1863053", 
+                  "z" : "0.03075842"
+               }, 
+               "rotation" : { 
+                  "x" : "352.9492", 
+                  "y" : "13.68776", 
+                  "z" : "15.59752"
+               }
+            }, 
+            { 
+               "id" : "rShldr", 
+               "position" : { 
+                  "x" : "0.1213275", 
+                  "y" : "-0.02990603", 
+                  "z" : "-0.01069375"
+               }, 
+               "rotation" : { 
+                  "x" : "10.75005", 
+                  "y" : "330.0172", 
+                  "z" : "264.6813"
+               }
+            }, 
+            { 
+               "id" : "rForeArm", 
+               "position" : { 
+                  "x" : "0.2896513", 
+                  "y" : "-0.001450449", 
+                  "z" : "0.002147842"
+               }, 
+               "rotation" : { 
+                  "x" : "356.7844", 
+                  "y" : "325.465", 
+                  "z" : "358.4131"
+               }
+            }, 
+            { 
+               "id" : "rHand", 
+               "position" : { 
+                  "x" : "0.2251379", 
+                  "y" : "6.434927E-05", 
+                  "z" : "0.0003544614"
+               }, 
+               "rotation" : { 
+                  "x" : "343.8901", 
+                  "y" : "10.03491", 
+                  "z" : "10.75424"
+               }
+            }, 
+            { 
+               "id" : "rCarpal2", 
+               "position" : { 
+                  "x" : "0.02189605", 
+                  "y" : "0.002400504", 
+                  "z" : "-0.01062903"
+               }, 
+               "rotation" : { 
+                  "x" : "349.6228", 
+                  "y" : "11.1486", 
+                  "z" : "354.6077"
+               }
+            }, 
+            { 
+               "id" : "rRing1", 
+               "position" : { 
+                  "x" : "0.05678353", 
+                  "y" : "0.003238026", 
+                  "z" : "0.01039112"
+               }, 
+               "rotation" : { 
+                  "x" : "5.235421", 
+                  "y" : "357.2857", 
+                  "z" : "347.9268"
+               }
+            }, 
+            { 
+               "id" : "rRing2", 
+               "position" : { 
+                  "x" : "0.03359884", 
+                  "y" : "0.001751238", 
+                  "z" : "-4.169135E-05"
+               }, 
+               "rotation" : { 
+                  "x" : "358.9919", 
+                  "y" : "357.6689", 
+                  "z" : "342.6085"
+               }
+            }, 
+            { 
+               "id" : "rRing3", 
+               "position" : { 
+                  "x" : "0.01966367", 
+                  "y" : "-3.353189E-05", 
+                  "z" : "-0.0001344425"
+               }, 
+               "rotation" : { 
+                  "x" : "354.5645", 
+                  "y" : "358.2747", 
+                  "z" : "344.6643"
+               }
+            }, 
+            { 
+               "id" : "rPinky1", 
+               "position" : { 
+                  "x" : "0.05253246", 
+                  "y" : "-0.001924161", 
+                  "z" : "-0.009220351"
+               }, 
+               "rotation" : { 
+                  "x" : "0.9988005", 
+                  "y" : "1.016508", 
+                  "z" : "351.1786"
+               }
+            }, 
+            { 
+               "id" : "rPinky2", 
+               "position" : { 
+                  "x" : "0.02595995", 
+                  "y" : "-0.000299555", 
+                  "z" : "4.60483E-05"
+               }, 
+               "rotation" : { 
+                  "x" : "0.07719579", 
+                  "y" : "355.8922", 
+                  "z" : "331.4623"
+               }
+            }, 
+            { 
+               "id" : "rPinky3", 
+               "position" : { 
+                  "x" : "0.01562857", 
+                  "y" : "0.001422366", 
+                  "z" : "-0.0002480492"
+               }, 
+               "rotation" : { 
+                  "x" : "358.8232", 
+                  "y" : "1.914021", 
+                  "z" : "353.5647"
+               }
+            }, 
+            { 
+               "id" : "rCarpal1", 
+               "position" : { 
+                  "x" : "0.0212373", 
+                  "y" : "0.003986564", 
+                  "z" : "0.0123281"
+               }, 
+               "rotation" : { 
+                  "x" : "0.8834912", 
+                  "y" : "354.9212", 
+                  "z" : "359.1974"
+               }
+            }, 
+            { 
+               "id" : "rIndex1", 
+               "position" : { 
+                  "x" : "0.05936493", 
+                  "y" : "0.002535694", 
+                  "z" : "0.009874186"
+               }, 
+               "rotation" : { 
+                  "x" : "4.156836", 
+                  "y" : "354.9114", 
+                  "z" : "346.0549"
+               }
+            }, 
+            { 
+               "id" : "rIndex2", 
+               "position" : { 
+                  "x" : "0.03289121", 
+                  "y" : "0.002492145", 
+                  "z" : "-0.0001881451"
+               }, 
+               "rotation" : { 
+                  "x" : "359.4201", 
+                  "y" : "1.70239", 
+                  "z" : "342.4907"
+               }
+            }, 
+            { 
+               "id" : "rIndex3", 
+               "position" : { 
+                  "x" : "0.01948614", 
+                  "y" : "-0.001611156", 
+                  "z" : "-5.469904E-05"
+               }, 
+               "rotation" : { 
+                  "x" : "358.9922", 
+                  "y" : "0.5559161", 
+                  "z" : "345.8448"
+               }
+            }, 
+            { 
+               "id" : "rMid1", 
+               "position" : { 
+                  "x" : "0.06071552", 
+                  "y" : "0.003531496", 
+                  "z" : "-0.01068144"
+               }, 
+               "rotation" : { 
+                  "x" : "359.3372", 
+                  "y" : "4.253815", 
+                  "z" : "348.3278"
+               }
+            }, 
+            { 
+               "id" : "rMid2", 
+               "position" : { 
+                  "x" : "0.03654426", 
+                  "y" : "0.0008955512", 
+                  "z" : "0.0002004639"
+               }, 
+               "rotation" : { 
+                  "x" : "357.7571", 
+                  "y" : "358.6313", 
+                  "z" : "339.0734"
+               }
+            }, 
+            { 
+               "id" : "rMid3", 
+               "position" : { 
+                  "x" : "0.02333285", 
+                  "y" : "-0.0001423349", 
+                  "z" : "0.0001840205"
+               }, 
+               "rotation" : { 
+                  "x" : "2.082652", 
+                  "y" : "2.180207", 
+                  "z" : "348.6757"
+               }
+            }, 
+            { 
+               "id" : "rThumb1", 
+               "position" : { 
+                  "x" : "0.02328279", 
+                  "y" : "-0.005733827", 
+                  "z" : "0.01931005"
+               }, 
+               "rotation" : { 
+                  "x" : "357.7306", 
+                  "y" : "304.8342", 
+                  "z" : "338.4043"
+               }
+            }, 
+            { 
+               "id" : "rThumb2", 
+               "position" : { 
+                  "x" : "0.0398983", 
+                  "y" : "-0.0001056641", 
+                  "z" : "-9.663403E-06"
+               }, 
+               "rotation" : { 
+                  "x" : "332.1228", 
+                  "y" : "28.39217", 
+                  "z" : "358.4825"
+               }
+            }, 
+            { 
+               "id" : "rThumb3", 
+               "position" : { 
+                  "x" : "0.02742336", 
+                  "y" : "7.87857E-05", 
+                  "z" : "0.0001351978"
+               }, 
+               "rotation" : { 
+                  "x" : "353.9681", 
+                  "y" : "356.8287", 
+                  "z" : "1.006477"
+               }
+            }, 
+            { 
+               "id" : "lPectoral", 
+               "position" : { 
+                  "x" : "-0.02909106", 
+                  "y" : "0.04428498", 
+                  "z" : "-0.03910936"
+               }, 
+               "rotation" : { 
+                  "x" : "348.6313", 
+                  "y" : "338.9562", 
+                  "z" : "359.9388"
+               }
+            }, 
+            { 
+               "id" : "lNipple", 
+               "position" : { 
+                  "x" : "0.001829757", 
+                  "y" : "0.006073655", 
+                  "z" : "0.2079638"
+               }, 
+               "rotation" : { 
+                  "x" : "7.628877", 
+                  "y" : "172.7325", 
+                  "z" : "348.9312"
+               }
+            }, 
+            { 
+               "id" : "lNippleTrigger", 
+               "trigger" : { 
+                  "displayName" : "lNippleTrigger", 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "rPectoral", 
+               "position" : { 
+                  "x" : "0.02916347", 
+                  "y" : "0.04424802", 
+                  "z" : "-0.03920672"
+               }, 
+               "rotation" : { 
+                  "x" : "348.6305", 
+                  "y" : "20.97196", 
+                  "z" : "0.02578104"
+               }
+            }, 
+            { 
+               "id" : "rNipple", 
+               "position" : { 
+                  "x" : "-0.001831609", 
+                  "y" : "0.006027942", 
+                  "z" : "0.2081658"
+               }, 
+               "rotation" : { 
+                  "x" : "7.622386", 
+                  "y" : "187.2691", 
+                  "z" : "11.64355"
+               }
+            }, 
+            { 
+               "id" : "rNippleTrigger", 
+               "trigger" : { 
+                  "displayName" : "rNippleTrigger", 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "neck", 
+               "position" : { 
+                  "x" : "8.669682E-05", 
+                  "y" : "0.2495357", 
+                  "z" : "-0.008976258"
+               }, 
+               "rotation" : { 
+                  "x" : "5.995401", 
+                  "y" : "357.5541", 
+                  "z" : "359.2544"
+               }
+            }, 
+            { 
+               "id" : "head", 
+               "position" : { 
+                  "x" : "-1.874915E-05", 
+                  "y" : "0.08850594", 
+                  "z" : "0.0009559682"
+               }, 
+               "rotation" : { 
+                  "x" : "349.1876", 
+                  "y" : "359.2329", 
+                  "z" : "0.7174338"
+               }
+            }, 
+            { 
+               "id" : "LipTrigger", 
+               "trigger" : { 
+                  "displayName" : "LipTrigger", 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "HeadAudioSource", 
+               "volume" : "0.5", 
+               "minDistance" : "0.4758771", 
+               "maxDistance" : "79.31284", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "MouthTrigger", 
+               "trigger" : { 
+                  "displayName" : "MouthTrigger", 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "ThroatTrigger", 
+               "trigger" : { 
+                  "displayName" : "ThroatTrigger", 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "rEye", 
+               "position" : { 
+                  "x" : "0.03271547", 
+                  "y" : "0.05919559", 
+                  "z" : "0.07783806"
+               }, 
+               "rotation" : { 
+                  "x" : "358.8175", 
+                  "y" : "357.7791", 
+                  "z" : "0.038754"
+               }
+            }, 
+            { 
+               "id" : "lEye", 
+               "position" : { 
+                  "x" : "-0.03271538", 
+                  "y" : "0.05919404", 
+                  "z" : "0.07783689"
+               }, 
+               "rotation" : { 
+                  "x" : "358.8166", 
+                  "y" : "0.3957336", 
+                  "z" : "359.9931"
+               }
+            }, 
+            { 
+               "id" : "upperJaw", 
+               "position" : { 
+                  "x" : "-0.0001", 
+                  "y" : "0.01238143", 
+                  "z" : "0.02088858"
+               }, 
+               "rotation" : { 
+                  "x" : "0.08959753", 
+                  "y" : "359.9898", 
+                  "z" : "359.9902"
+               }
+            }, 
+            { 
+               "id" : "lowerJaw", 
+               "position" : { 
+                  "x" : "2.129207E-06", 
+                  "y" : "0.01168476", 
+                  "z" : "0.01880411"
+               }, 
+               "rotation" : { 
+                  "x" : "22.49843", 
+                  "y" : "-7.334663E-05", 
+                  "z" : "0.00775475"
+               }
+            }, 
+            { 
+               "id" : "tongueBase", 
+               "position" : { 
+                  "x" : "-3.395974E-05", 
+                  "y" : "-0.0180966", 
+                  "z" : "0.04587162"
+               }, 
+               "rotation" : { 
+                  "x" : "274.9484", 
+                  "y" : "179.9834", 
+                  "z" : "180.0159"
+               }
+            }, 
+            { 
+               "id" : "tongue01", 
+               "position" : { 
+                  "x" : "1.824653E-05", 
+                  "y" : "0.0007987972", 
+                  "z" : "0.009420281"
+               }, 
+               "rotation" : { 
+                  "x" : "46.04241", 
+                  "y" : "0.00175199", 
+                  "z" : "-7.183667E-05"
+               }
+            }, 
+            { 
+               "id" : "tongue02", 
+               "position" : { 
+                  "x" : "4.306884E-10", 
+                  "y" : "-0.0004961574", 
+                  "z" : "0.006486"
+               }, 
+               "rotation" : { 
+                  "x" : "15.77122", 
+                  "y" : "0.002385468", 
+                  "z" : "0.0002381301"
+               }
+            }, 
+            { 
+               "id" : "tongue03", 
+               "position" : { 
+                  "x" : "-7.486753E-06", 
+                  "y" : "-0.00015704", 
+                  "z" : "0.005351322"
+               }, 
+               "rotation" : { 
+                  "x" : "8.240394", 
+                  "y" : "0.001274779", 
+                  "z" : "0.0003637121"
+               }
+            }, 
+            { 
+               "id" : "tongue04", 
+               "position" : { 
+                  "x" : "-3.172985E-09", 
+                  "y" : "-0.0003337907", 
+                  "z" : "0.005004566"
+               }, 
+               "rotation" : { 
+                  "x" : "3.298172", 
+                  "y" : "0.001592841", 
+                  "z" : "0.003050456"
+               }
+            }, 
+            { 
+               "id" : "tongue05", 
+               "position" : { 
+                  "x" : "-1.951859E-06", 
+                  "y" : "-0.0003524949", 
+                  "z" : "0.004040142"
+               }, 
+               "rotation" : { 
+                  "x" : "359.3396", 
+                  "y" : "0.003087327", 
+                  "z" : "0.002913752"
+               }
+            }, 
+            { 
+               "id" : "tongueTip", 
+               "position" : { 
+                  "x" : "-4.743725E-09", 
+                  "y" : "0.0001187079", 
+                  "z" : "0.002556741"
+               }, 
+               "rotation" : { 
+                  "x" : "354.2015", 
+                  "y" : "0.0008801305", 
+                  "z" : "0.001830019"
+               }
+            }, 
+            { 
+               "id" : "lCollar", 
+               "position" : { 
+                  "x" : "-0.01515296", 
+                  "y" : "0.1864018", 
+                  "z" : "0.03075869"
+               }, 
+               "rotation" : { 
+                  "x" : "353.2458", 
+                  "y" : "344.7902", 
+                  "z" : "344.2367"
+               }
+            }, 
+            { 
+               "id" : "lShldr", 
+               "position" : { 
+                  "x" : "-0.1212827", 
+                  "y" : "-0.02952615", 
+                  "z" : "-0.01071708"
+               }, 
+               "rotation" : { 
+                  "x" : "13.71901", 
+                  "y" : "26.16817", 
+                  "z" : "94.84299"
+               }
+            }, 
+            { 
+               "id" : "lForeArm", 
+               "position" : { 
+                  "x" : "-0.2894769", 
+                  "y" : "-0.001031727", 
+                  "z" : "0.0020689"
+               }, 
+               "rotation" : { 
+                  "x" : "356.9748", 
+                  "y" : "37.02067", 
+                  "z" : "1.620007"
+               }
+            }, 
+            { 
+               "id" : "lHand", 
+               "position" : { 
+                  "x" : "-0.2249972", 
+                  "y" : "-0.0002604371", 
+                  "z" : "0.0004058592"
+               }, 
+               "rotation" : { 
+                  "x" : "349.5147", 
+                  "y" : "354.7204", 
+                  "z" : "349.2596"
+               }
+            }, 
+            { 
+               "id" : "lCarpal2", 
+               "position" : { 
+                  "x" : "-0.02189645", 
+                  "y" : "0.002458517", 
+                  "z" : "-0.01062378"
+               }, 
+               "rotation" : { 
+                  "x" : "349.6232", 
+                  "y" : "348.8519", 
+                  "z" : "5.391097"
+               }
+            }, 
+            { 
+               "id" : "lRing1", 
+               "position" : { 
+                  "x" : "-0.05675386", 
+                  "y" : "0.003202774", 
+                  "z" : "0.01037834"
+               }, 
+               "rotation" : { 
+                  "x" : "5.235059", 
+                  "y" : "2.712879", 
+                  "z" : "12.07748"
+               }
+            }, 
+            { 
+               "id" : "lRing2", 
+               "position" : { 
+                  "x" : "-0.0335738", 
+                  "y" : "0.001724762", 
+                  "z" : "-4.952186E-05"
+               }, 
+               "rotation" : { 
+                  "x" : "358.9695", 
+                  "y" : "2.299631", 
+                  "z" : "17.58573"
+               }
+            }, 
+            { 
+               "id" : "lRing3", 
+               "position" : { 
+                  "x" : "-0.01963666", 
+                  "y" : "-1.581226E-05", 
+                  "z" : "-0.0001196949"
+               }, 
+               "rotation" : { 
+                  "x" : "354.6049", 
+                  "y" : "1.752767", 
+                  "z" : "15.16191"
+               }
+            }, 
+            { 
+               "id" : "lPinky1", 
+               "position" : { 
+                  "x" : "-0.05246454", 
+                  "y" : "-0.001925357", 
+                  "z" : "-0.009222529"
+               }, 
+               "rotation" : { 
+                  "x" : "0.9990293", 
+                  "y" : "358.9823", 
+                  "z" : "8.825866"
+               }
+            }, 
+            { 
+               "id" : "lPinky2", 
+               "position" : { 
+                  "x" : "-0.02596214", 
+                  "y" : "-0.0003001531", 
+                  "z" : "4.529147E-05"
+               }, 
+               "rotation" : { 
+                  "x" : "0.07877399", 
+                  "y" : "4.108679", 
+                  "z" : "28.53474"
+               }
+            }, 
+            { 
+               "id" : "lPinky3", 
+               "position" : { 
+                  "x" : "-0.01559908", 
+                  "y" : "0.001396031", 
+                  "z" : "-0.000249192"
+               }, 
+               "rotation" : { 
+                  "x" : "358.8252", 
+                  "y" : "358.0834", 
+                  "z" : "6.428817"
+               }
+            }, 
+            { 
+               "id" : "lCarpal1", 
+               "position" : { 
+                  "x" : "-0.02124874", 
+                  "y" : "0.004061623", 
+                  "z" : "0.01233485"
+               }, 
+               "rotation" : { 
+                  "x" : "0.8839086", 
+                  "y" : "5.079093", 
+                  "z" : "0.8011005"
+               }
+            }, 
+            { 
+               "id" : "lIndex1", 
+               "position" : { 
+                  "x" : "-0.05935078", 
+                  "y" : "0.002515944", 
+                  "z" : "0.009874937"
+               }, 
+               "rotation" : { 
+                  "x" : "3.294921", 
+                  "y" : "5.031449", 
+                  "z" : "13.94393"
+               }
+            }, 
+            { 
+               "id" : "lIndex2", 
+               "position" : { 
+                  "x" : "-0.03283564", 
+                  "y" : "0.002501994", 
+                  "z" : "-0.0001731435"
+               }, 
+               "rotation" : { 
+                  "x" : "359.4166", 
+                  "y" : "358.3147", 
+                  "z" : "17.41084"
+               }
+            }, 
+            { 
+               "id" : "lIndex3", 
+               "position" : { 
+                  "x" : "-0.01947922", 
+                  "y" : "-0.001662226", 
+                  "z" : "-5.311286E-05"
+               }, 
+               "rotation" : { 
+                  "x" : "358.9622", 
+                  "y" : "359.4355", 
+                  "z" : "14.23772"
+               }
+            }, 
+            { 
+               "id" : "lMid1", 
+               "position" : { 
+                  "x" : "-0.06067213", 
+                  "y" : "0.003457461", 
+                  "z" : "-0.01068418"
+               }, 
+               "rotation" : { 
+                  "x" : "359.3377", 
+                  "y" : "355.7437", 
+                  "z" : "11.69798"
+               }
+            }, 
+            { 
+               "id" : "lMid2", 
+               "position" : { 
+                  "x" : "-0.03651412", 
+                  "y" : "0.0009344928", 
+                  "z" : "0.0002100223"
+               }, 
+               "rotation" : { 
+                  "x" : "357.7525", 
+                  "y" : "1.388468", 
+                  "z" : "20.79659"
+               }
+            }, 
+            { 
+               "id" : "lMid3", 
+               "position" : { 
+                  "x" : "-0.02334452", 
+                  "y" : "-0.0001820571", 
+                  "z" : "0.0001683033"
+               }, 
+               "rotation" : { 
+                  "x" : "2.076635", 
+                  "y" : "357.8044", 
+                  "z" : "11.42461"
+               }
+            }, 
+            { 
+               "id" : "lThumb1", 
+               "position" : { 
+                  "x" : "-0.02328154", 
+                  "y" : "-0.005682923", 
+                  "z" : "0.01931415"
+               }, 
+               "rotation" : { 
+                  "x" : "357.7312", 
+                  "y" : "55.16468", 
+                  "z" : "21.59818"
+               }
+            }, 
+            { 
+               "id" : "lThumb2", 
+               "position" : { 
+                  "x" : "-0.03988443", 
+                  "y" : "-0.0001223367", 
+                  "z" : "1.92048E-05"
+               }, 
+               "rotation" : { 
+                  "x" : "332.1385", 
+                  "y" : "331.4915", 
+                  "z" : "1.698823"
+               }
+            }, 
+            { 
+               "id" : "lThumb3", 
+               "position" : { 
+                  "x" : "-0.02740719", 
+                  "y" : "0.0001165462", 
+                  "z" : "0.000178766"
+               }, 
+               "rotation" : { 
+                  "x" : "353.9788", 
+                  "y" : "3.286115", 
+                  "z" : "358.9502"
+               }
+            }, 
+            { 
+               "id" : "geometry", 
+               "character" : "Lexi", 
+               "clothing" : [ 
+                  { 
+                     "id" : "Heat Up Skirt Sim", 
+                     "enabled" : "true"
+                  }, 
+                  { 
+                     "id" : "Heat Up Panty Sim", 
+                     "enabled" : "true"
+                  }, 
+                  { 
+                     "id" : "Heat Up Top", 
+                     "enabled" : "true"
+                  }
+               ], 
+               "hair" : [ 
+                  { 
+                     "id" : "NoStage3.Hair_Long_Upswept_Top_Bun.1:/Custom/Hair/Female/NoStage3/Long Upswept Top Bun/Top Bun.vam", 
+                     "internalId" : "NoStage3:Top Bun", 
+                     "enabled" : "true"
+                  }, 
+                  { 
+                     "id" : "NoStage3.Hair_Long_Upswept_Top_Bun.1:/Custom/Hair/Female/NoStage3/Long Upswept Top Bun/Long Upswept.vam", 
+                     "internalId" : "NoStage3:Long Upswept", 
+                     "enabled" : "true"
+                  }
+               ], 
+               "morphs" : [ 
+                  { 
+                     "uid" : "Shoulder Width", 
+                     "name" : "Shoulder Width", 
+                     "value" : "0.06258726"
+                  }, 
+                  { 
+                     "uid" : "Shoulder Width (B)", 
+                     "name" : "Shoulder Width (B)", 
+                     "value" : "0.09139299"
+                  }, 
+                  { 
+                     "uid" : "(REN) Thin", 
+                     "name" : "(REN) Thin", 
+                     "value" : "0.3589706"
+                  }, 
+                  { 
+                     "uid" : "Body Scale", 
+                     "name" : "Body Scale", 
+                     "value" : "0.3134314"
+                  }, 
+                  { 
+                     "uid" : "Elise Body (REN)", 
+                     "name" : "Elise Body (REN)", 
+                     "value" : "0.05000329"
+                  }, 
+                  { 
+                     "uid" : "Lower Body Length", 
+                     "name" : "Lower Body Length", 
+                     "value" : "-0.2352058"
+                  }, 
+                  { 
+                     "uid" : "Breast Centered", 
+                     "name" : "Breast Centered", 
+                     "value" : "0.3190771"
+                  }, 
+                  { 
+                     "uid" : "Breast Height", 
+                     "name" : "Breast Height", 
+                     "value" : "1"
+                  }, 
+                  { 
+                     "uid" : "Breast Large", 
+                     "name" : "Breast Large", 
+                     "value" : "0.2336975"
+                  }, 
+                  { 
+                     "uid" : "Breast Round", 
+                     "name" : "Breast Round", 
+                     "value" : "0.1595837"
+                  }, 
+                  { 
+                     "uid" : "Breast Top Curve1", 
+                     "name" : "Breast Top Curve1", 
+                     "value" : "0.1195798"
+                  }, 
+                  { 
+                     "uid" : "Breast Top Curve2", 
+                     "name" : "Breast Top Curve2", 
+                     "value" : "0.2677793"
+                  }, 
+                  { 
+                     "uid" : "Breasts Natural", 
+                     "name" : "Breasts Natural", 
+                     "value" : "0.1887918"
+                  }, 
+                  { 
+                     "uid" : "Breasts Shape 07", 
+                     "name" : "Breasts Shape 07", 
+                     "value" : "0.1510306"
+                  }, 
+                  { 
+                     "uid" : "Nipples", 
+                     "name" : "Nipples", 
+                     "value" : "0"
+                  }, 
+                  { 
+                     "uid" : "Nipples Apply", 
+                     "name" : "Nipples Apply", 
+                     "value" : "0.6514048"
+                  }, 
+                  { 
+                     "uid" : "Labia majora-relaxation", 
+                     "name" : "Labia majora-relaxation", 
+                     "value" : "0.5"
+                  }, 
+                  { 
+                     "uid" : "Labia majora-spread-LLow", 
+                     "name" : "Labia majora-spread-LLow", 
+                     "value" : "0"
+                  }, 
+                  { 
+                     "uid" : "Labia majora-spread-RLow", 
+                     "name" : "Labia majora-spread-RLow", 
+                     "value" : "0"
+                  }, 
+                  { 
+                     "uid" : "Labia minora-relaxation", 
+                     "name" : "Labia minora-relaxation", 
+                     "value" : "0"
+                  }, 
+                  { 
+                     "uid" : "Labia minora-size", 
+                     "name" : "Labia minora-size", 
+                     "value" : "0"
+                  }, 
+                  { 
+                     "uid" : "Labia minora-thickness", 
+                     "name" : "Labia minora-thickness", 
+                     "value" : "0"
+                  }, 
+                  { 
+                     "uid" : "Brow Inner Width", 
+                     "name" : "Brow Inner Width", 
+                     "value" : "0.1354059"
+                  }, 
+                  { 
+                     "uid" : "Brow Outer Height", 
+                     "name" : "Brow Outer Height", 
+                     "value" : "0.1633797"
+                  }, 
+                  { 
+                     "uid" : "Brow Outer Shift", 
+                     "name" : "Brow Outer Shift", 
+                     "value" : "-0.1653678"
+                  }, 
+                  { 
+                     "uid" : "Brow Shape Outer", 
+                     "name" : "Brow Shape Outer", 
+                     "value" : "-0.03903809"
+                  }, 
+                  { 
+                     "uid" : "Brow Width", 
+                     "name" : "Brow Width", 
+                     "value" : "0.239288"
+                  }, 
+                  { 
+                     "uid" : "Brow Width Left", 
+                     "name" : "Brow Width Left", 
+                     "value" : "0.239288"
+                  }, 
+                  { 
+                     "uid" : "Brow Width Right", 
+                     "name" : "Brow Width Right", 
+                     "value" : "0.239288"
+                  }, 
+                  { 
+                     "uid" : "Cheek Bone Define ", 
+                     "name" : "Cheek Bone Define ", 
+                     "value" : "0.5926231"
+                  }, 
+                  { 
+                     "uid" : "Cheek Bones Round", 
+                     "name" : "Cheek Bones Round", 
+                     "value" : "0.09571093"
+                  }, 
+                  { 
+                     "uid" : "Cheek Bones Upper Depth", 
+                     "name" : "Cheek Bones Upper Depth", 
+                     "value" : "0.5697979"
+                  }, 
+                  { 
+                     "uid" : "Cheek Bones Width", 
+                     "name" : "Cheek Bones Width", 
+                     "value" : "0.1495413"
+                  }, 
+                  { 
+                     "uid" : "Cheeks Depth", 
+                     "name" : "Cheeks Depth", 
+                     "value" : "0.06410918"
+                  }, 
+                  { 
+                     "uid" : "Cheeks Depth Left", 
+                     "name" : "Cheeks Depth Left", 
+                     "value" : "0.06410918"
+                  }, 
+                  { 
+                     "uid" : "Cheeks Depth Right", 
+                     "name" : "Cheeks Depth Right", 
+                     "value" : "0.06410918"
+                  }, 
+                  { 
+                     "uid" : "Cheeks Sink Lower", 
+                     "name" : "Cheeks Sink Lower", 
+                     "value" : "0.145888"
+                  }, 
+                  { 
+                     "uid" : "Laugh Lines", 
+                     "name" : "Laugh Lines", 
+                     "value" : "0.09446888"
+                  }, 
+                  { 
+                     "uid" : "Chin Depth", 
+                     "name" : "Chin Depth", 
+                     "value" : "0.273436"
+                  }, 
+                  { 
+                     "uid" : "Chin Height", 
+                     "name" : "Chin Height", 
+                     "value" : "-0.6482021"
+                  }, 
+                  { 
+                     "uid" : "Chin Square", 
+                     "name" : "Chin Square", 
+                     "value" : "0.6894411"
+                  }, 
+                  { 
+                     "uid" : "Cornea Depth", 
+                     "name" : "Cornea Depth", 
+                     "value" : "1"
+                  }, 
+                  { 
+                     "uid" : "Eyelashes Length", 
+                     "name" : "Eyelashes Length", 
+                     "value" : "1"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Height Inner ", 
+                     "name" : "Eyelids Height Inner ", 
+                     "value" : "-0.5128663"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Top In Height", 
+                     "name" : "Eyelids Top In Height", 
+                     "value" : "0.1196592"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Upper Height", 
+                     "name" : "Eyelids Upper Height", 
+                     "value" : "0.2905939"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Upper Height (Outer)", 
+                     "name" : "Eyelids Upper Height (Outer)", 
+                     "value" : "0.7968094"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Upper Height A", 
+                     "name" : "Eyelids Upper Height A", 
+                     "value" : "0.3532145"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Upper Height Left", 
+                     "name" : "Eyelids Upper Height Left", 
+                     "value" : "0.2905939"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Upper Height Right", 
+                     "name" : "Eyelids Upper Height Right", 
+                     "value" : "0.2905939"
+                  }, 
+                  { 
+                     "uid" : "Eyes Almond Outer", 
+                     "name" : "Eyes Almond Outer", 
+                     "value" : "0.1082831"
+                  }, 
+                  { 
+                     "uid" : "Eyes Almond Outer Left", 
+                     "name" : "Eyes Almond Outer Left", 
+                     "value" : "0.1082831"
+                  }, 
+                  { 
+                     "uid" : "Eyes Almond Outer Right", 
+                     "name" : "Eyes Almond Outer Right", 
+                     "value" : "0.1082831"
+                  }, 
+                  { 
+                     "uid" : "Eyes Angle", 
+                     "name" : "Eyes Angle", 
+                     "value" : "0.113958"
+                  }, 
+                  { 
+                     "uid" : "Eyes Angle Left", 
+                     "name" : "Eyes Angle Left", 
+                     "value" : "0.113958"
+                  }, 
+                  { 
+                     "uid" : "Eyes Angle Right", 
+                     "name" : "Eyes Angle Right", 
+                     "value" : "0.113958"
+                  }, 
+                  { 
+                     "uid" : "Eyes Closed (REN)", 
+                     "name" : "Eyes Closed (REN)", 
+                     "value" : "0.0345055"
+                  }, 
+                  { 
+                     "uid" : "Eyes Height", 
+                     "name" : "Eyes Height", 
+                     "value" : "-0.1824456"
+                  }, 
+                  { 
+                     "uid" : "Eyes Height Bottom", 
+                     "name" : "Eyes Height Bottom", 
+                     "value" : "0.5555539"
+                  }, 
+                  { 
+                     "uid" : "Eyes Height Inner", 
+                     "name" : "Eyes Height Inner", 
+                     "value" : "0.3076869"
+                  }, 
+                  { 
+                     "uid" : "Eyes Height Left", 
+                     "name" : "Eyes Height Left", 
+                     "value" : "-0.1824456"
+                  }, 
+                  { 
+                     "uid" : "Eyes Height Outer", 
+                     "name" : "Eyes Height Outer", 
+                     "value" : "0.09688783"
+                  }, 
+                  { 
+                     "uid" : "Eyes Height Right", 
+                     "name" : "Eyes Height Right", 
+                     "value" : "-0.1824456"
+                  }, 
+                  { 
+                     "uid" : "Eyes Height Upper", 
+                     "name" : "Eyes Height Upper", 
+                     "value" : "0.1766282"
+                  }, 
+                  { 
+                     "uid" : "Eyes Inner  Shape", 
+                     "name" : "Eyes Inner  Shape", 
+                     "value" : "1.367527"
+                  }, 
+                  { 
+                     "uid" : "Eyes Inner Corner Height", 
+                     "name" : "Eyes Inner Corner Height", 
+                     "value" : "1"
+                  }, 
+                  { 
+                     "uid" : "Eyes Inner Corner Width", 
+                     "name" : "Eyes Inner Corner Width", 
+                     "value" : "0.2222456"
+                  }, 
+                  { 
+                     "uid" : "Eyes Iris Size", 
+                     "name" : "Eyes Iris Size", 
+                     "value" : "-0.2050385"
+                  }, 
+                  { 
+                     "uid" : "Eyes Lower Shape", 
+                     "name" : "Eyes Lower Shape", 
+                     "value" : "-0.4843309"
+                  }, 
+                  { 
+                     "uid" : "Eyes Puffy Outer", 
+                     "name" : "Eyes Puffy Outer", 
+                     "value" : "0.3133709"
+                  }, 
+                  { 
+                     "uid" : "Eyes Puffy Upper", 
+                     "name" : "Eyes Puffy Upper", 
+                     "value" : "0.2905762"
+                  }, 
+                  { 
+                     "uid" : "Eyes Size", 
+                     "name" : "Eyes Size", 
+                     "value" : "0.04565108"
+                  }, 
+                  { 
+                     "uid" : "Eyes Size Left", 
+                     "name" : "Eyes Size Left", 
+                     "value" : "0.04565108"
+                  }, 
+                  { 
+                     "uid" : "Eyes Size Right", 
+                     "name" : "Eyes Size Right", 
+                     "value" : "0.04565108"
+                  }, 
+                  { 
+                     "uid" : "Eyes Width", 
+                     "name" : "Eyes Width", 
+                     "value" : "0.3190602"
+                  }, 
+                  { 
+                     "uid" : "Eyes Width Left", 
+                     "name" : "Eyes Width Left", 
+                     "value" : "0.3190602"
+                  }, 
+                  { 
+                     "uid" : "Eyes Width Right", 
+                     "name" : "Eyes Width Right", 
+                     "value" : "0.3190602"
+                  }, 
+                  { 
+                     "uid" : "Iris Height", 
+                     "name" : "Iris Height", 
+                     "value" : "-0.2677765"
+                  }, 
+                  { 
+                     "uid" : "Iris Placement", 
+                     "name" : "Iris Placement", 
+                     "value" : "0.4387782"
+                  }, 
+                  { 
+                     "uid" : "Pupils Dialate", 
+                     "name" : "Pupils Dialate", 
+                     "value" : "-0.5128269"
+                  }, 
+                  { 
+                     "uid" : "Face Height Upper ", 
+                     "name" : "Face Height Upper ", 
+                     "value" : "0.05709434"
+                  }, 
+                  { 
+                     "uid" : "Face Square", 
+                     "name" : "Face Square", 
+                     "value" : "-0.05551004"
+                  }, 
+                  { 
+                     "uid" : "Face Square Left", 
+                     "name" : "Face Square Left", 
+                     "value" : "-0.05551004"
+                  }, 
+                  { 
+                     "uid" : "Face Square Right", 
+                     "name" : "Face Square Right", 
+                     "value" : "-0.05551004"
+                  }, 
+                  { 
+                     "uid" : "Jaw Chin Shape", 
+                     "name" : "Jaw Chin Shape", 
+                     "value" : "0.0847165"
+                  }, 
+                  { 
+                     "uid" : "Jaw Corner Shape", 
+                     "name" : "Jaw Corner Shape", 
+                     "value" : "0.06838226"
+                  }, 
+                  { 
+                     "uid" : "Jaw Curve", 
+                     "name" : "Jaw Curve", 
+                     "value" : "-0.387635"
+                  }, 
+                  { 
+                     "uid" : "Jaw Height", 
+                     "name" : "Jaw Height", 
+                     "value" : "0.09111941"
+                  }, 
+                  { 
+                     "uid" : "Jaw Height Left", 
+                     "name" : "Jaw Height Left", 
+                     "value" : "0.09111941"
+                  }, 
+                  { 
+                     "uid" : "Jaw Height Right", 
+                     "name" : "Jaw Height Right", 
+                     "value" : "0.09111941"
+                  }, 
+                  { 
+                     "uid" : "Jaw Line Depth", 
+                     "name" : "Jaw Line Depth", 
+                     "value" : "-0.233692"
+                  }, 
+                  { 
+                     "uid" : "Tongue Narrow-Wide", 
+                     "name" : "Tongue Narrow-Wide", 
+                     "value" : "0"
+                  }, 
+                  { 
+                     "uid" : "CurvyLips", 
+                     "name" : "CurvyLips", 
+                     "value" : "0.6609666"
+                  }, 
+                  { 
+                     "uid" : "Lip Lower Depth", 
+                     "name" : "Lip Lower Depth", 
+                     "value" : "0.04700206"
+                  }, 
+                  { 
+                     "uid" : "Lip Lower Size", 
+                     "name" : "Lip Lower Size", 
+                     "value" : "0.03489285"
+                  }, 
+                  { 
+                     "uid" : "Lip Top Peak", 
+                     "name" : "Lip Top Peak", 
+                     "value" : "0.7008432"
+                  }, 
+                  { 
+                     "uid" : "Lip Upper Thick", 
+                     "name" : "Lip Upper Thick", 
+                     "value" : "0.0113889"
+                  }, 
+                  { 
+                     "uid" : "Lips Bottom Shape ", 
+                     "name" : "Lips Bottom Shape ", 
+                     "value" : "0.6723188"
+                  }, 
+                  { 
+                     "uid" : "Lips Bow Shape", 
+                     "name" : "Lips Bow Shape", 
+                     "value" : "0.3703811"
+                  }, 
+                  { 
+                     "uid" : "Lips Square", 
+                     "name" : "Lips Square", 
+                     "value" : "0.2107855"
+                  }, 
+                  { 
+                     "uid" : "Lips Upper Center Depth", 
+                     "name" : "Lips Upper Center Depth", 
+                     "value" : "-0.0171026"
+                  }, 
+                  { 
+                     "uid" : "Mouth Curves Arch Corner", 
+                     "name" : "Mouth Curves Arch Corner", 
+                     "value" : "0.6268075"
+                  }, 
+                  { 
+                     "uid" : "Mouth Size", 
+                     "name" : "Mouth Size", 
+                     "value" : "0.06409216"
+                  }, 
+                  { 
+                     "uid" : "Mouth Width", 
+                     "name" : "Mouth Width", 
+                     "value" : "0.1367676"
+                  }, 
+                  { 
+                     "uid" : "MouthPouty", 
+                     "name" : "MouthPouty", 
+                     "value" : "0.09685767"
+                  }, 
+                  { 
+                     "uid" : "Nose Flesh Size", 
+                     "name" : "Nose Flesh Size", 
+                     "value" : "-0.02994139"
+                  }, 
+                  { 
+                     "uid" : "Nose Flesh Size Left", 
+                     "name" : "Nose Flesh Size Left", 
+                     "value" : "-0.02994139"
+                  }, 
+                  { 
+                     "uid" : "Nose Flesh Size Right", 
+                     "name" : "Nose Flesh Size Right", 
+                     "value" : "-0.02994139"
+                  }, 
+                  { 
+                     "uid" : "Nose Height", 
+                     "name" : "Nose Height", 
+                     "value" : "0.1944708"
+                  }, 
+                  { 
+                     "uid" : "Nose Ridge Width", 
+                     "name" : "Nose Ridge Width", 
+                     "value" : "-0.3133312"
+                  }, 
+                  { 
+                     "uid" : "Nose Septum Height", 
+                     "name" : "Nose Septum Height", 
+                     "value" : "1"
+                  }, 
+                  { 
+                     "uid" : "Nose Septum Shape", 
+                     "name" : "Nose Septum Shape", 
+                     "value" : "0.1937226"
+                  }, 
+                  { 
+                     "uid" : "Nose Septum Width", 
+                     "name" : "Nose Septum Width", 
+                     "value" : "0.4316228"
+                  }, 
+                  { 
+                     "uid" : "Nose Tilt", 
+                     "name" : "Nose Tilt", 
+                     "value" : "-0.0163701"
+                  }, 
+                  { 
+                     "uid" : "Nose Tip Bottom Shape", 
+                     "name" : "Nose Tip Bottom Shape", 
+                     "value" : "-0.1538416"
+                  }, 
+                  { 
+                     "uid" : "Nose Tip Height", 
+                     "name" : "Nose Tip Height", 
+                     "value" : "0.2906183"
+                  }, 
+                  { 
+                     "uid" : "Nose Tip Width", 
+                     "name" : "Nose Tip Width", 
+                     "value" : "0.06838894"
+                  }, 
+                  { 
+                     "uid" : "Nose Tip Width Lower", 
+                     "name" : "Nose Tip Width Lower", 
+                     "value" : "-0.5755019"
+                  }, 
+                  { 
+                     "uid" : "Nose Tip Width Upper", 
+                     "name" : "Nose Tip Width Upper", 
+                     "value" : "-0.1823484"
+                  }, 
+                  { 
+                     "uid" : "Nose Width", 
+                     "name" : "Nose Width", 
+                     "value" : "0.05483917"
+                  }, 
+                  { 
+                     "uid" : "Nostrils Shape Bottom", 
+                     "name" : "Nostrils Shape Bottom", 
+                     "value" : "-0.05470301"
+                  }, 
+                  { 
+                     "uid" : "Nostrils Shape Height", 
+                     "name" : "Nostrils Shape Height", 
+                     "value" : "-0.1495792"
+                  }, 
+                  { 
+                     "uid" : "Nostrils Shape Middle ", 
+                     "name" : "Nostrils Shape Middle ", 
+                     "value" : "0.2621332"
+                  }, 
+                  { 
+                     "uid" : "Nostrils Shape Top", 
+                     "name" : "Nostrils Shape Top", 
+                     "value" : "0.07406005"
+                  }, 
+                  { 
+                     "uid" : "Nostrils Width", 
+                     "name" : "Nostrils Width", 
+                     "value" : "0.09123492"
+                  }, 
+                  { 
+                     "uid" : "Nostrils Width Left", 
+                     "name" : "Nostrils Width Left", 
+                     "value" : "0.09123492"
+                  }, 
+                  { 
+                     "uid" : "Nostrils Width Lower", 
+                     "name" : "Nostrils Width Lower", 
+                     "value" : "0.1923035"
+                  }, 
+                  { 
+                     "uid" : "Nostrils Width Right", 
+                     "name" : "Nostrils Width Right", 
+                     "value" : "0.09123492"
+                  }, 
+                  { 
+                     "uid" : "Forehead Round", 
+                     "name" : "Forehead Round", 
+                     "value" : "0.2164607"
+                  }, 
+                  { 
+                     "uid" : "Head Scale", 
+                     "name" : "Head Scale", 
+                     "value" : "-0.06856346"
+                  }, 
+                  { 
+                     "uid" : "Head Width", 
+                     "name" : "Head Width", 
+                     "value" : "-0.03992152"
+                  }, 
+                  { 
+                     "uid" : "Lexi (REN)", 
+                     "name" : "Lexi (REN)", 
+                     "value" : "1"
+                  }, 
+                  { 
+                     "uid" : "Hips Round", 
+                     "name" : "Hips Round", 
+                     "value" : "-0.1709628"
+                  }, 
+                  { 
+                     "uid" : "HipSmall", 
+                     "name" : "HipSmall", 
+                     "value" : "0.552766"
+                  }, 
+                  { 
+                     "uid" : "Pubic Area Size", 
+                     "name" : "Pubic Area Size", 
+                     "value" : "0"
+                  }, 
+                  { 
+                     "uid" : "Legs Length", 
+                     "name" : "Legs Length", 
+                     "value" : "-0.2678881"
+                  }, 
+                  { 
+                     "uid" : "Thigh Bone Size", 
+                     "name" : "Thigh Bone Size", 
+                     "value" : "0.1140841"
+                  }, 
+                  { 
+                     "uid" : "Thighs Size", 
+                     "name" : "Thighs Size", 
+                     "value" : "0.1581261"
+                  }, 
+                  { 
+                     "uid" : "Torso Fitness", 
+                     "name" : "Torso Fitness", 
+                     "value" : "0.4158424"
+                  }, 
+                  { 
+                     "uid" : "Upper Body Length", 
+                     "name" : "Upper Body Length", 
+                     "value" : "0.04561138"
+                  }, 
+                  { 
+                     "uid" : "Upper Torso Length", 
+                     "name" : "Upper Torso Length", 
+                     "value" : "0.1709583"
+                  }, 
+                  { 
+                     "uid" : "Navel Horizontal", 
+                     "name" : "Navel Horizontal", 
+                     "value" : "-0.4587069"
+                  }, 
+                  { 
+                     "uid" : "Navel Size", 
+                     "name" : "Navel Size", 
+                     "value" : "-0.4366518"
+                  }, 
+                  { 
+                     "uid" : "MacGruber.Life.12:/Custom/Atom/Person/Morphs/female/MacGruber/Pose/Breathing/Breathing_Chest.vmi", 
+                     "name" : "Breathing Chest", 
+                     "value" : "-0.02199686"
+                  }, 
+                  { 
+                     "uid" : "MacGruber.Life.12:/Custom/Atom/Person/Morphs/female/MacGruber/Pose/Breathing/Breathing_NoseOut.vmi", 
+                     "name" : "Breathing NoseOut", 
+                     "value" : "0.08735429"
+                  }, 
+                  { 
+                     "uid" : "MacGruber.Life.12:/Custom/Atom/Person/Morphs/female/MacGruber/Pose/Breathing/Breathing_Stomach.vmi", 
+                     "name" : "Breathing Stomach", 
+                     "value" : "-0.03499738"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Bottom Up Left", 
+                     "name" : "Eyelids Bottom Up Left", 
+                     "value" : "0.02053313"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Bottom Up Right", 
+                     "name" : "Eyelids Bottom Up Right", 
+                     "value" : "0.02054249"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Top Up Left", 
+                     "name" : "Eyelids Top Up Left", 
+                     "value" : "0.06159938"
+                  }, 
+                  { 
+                     "uid" : "Eyelids Top Up Right", 
+                     "name" : "Eyelids Top Up Right", 
+                     "value" : "0.06162748"
+                  }
+               ]
+            }, 
+            { 
+               "id" : "BreastPhysicsMesh", 
+               "softVerticesColliderRadius" : "0.03783551"
+            }, 
+            { 
+               "id" : "AutoExpressions", 
+               "enabled" : "false"
+            }, 
+            { 
+               "id" : "FemaleEyelashes", 
+               "Eyelash" : "Lashes 11", 
+               "Diffuse Color" : { 
+                  "h" : "0.1111108", 
+                  "s" : "0.2093028", 
+                  "v" : "0.1686275"
+               }
+            }, 
+            { 
+               "id" : "MaleEyelashes", 
+               "Gloss" : "5.6", 
+               "Diffuse Color" : { 
+                  "h" : "0.111111", 
+                  "s" : "0.2499996", 
+                  "v" : "0.0470588"
+               }, 
+               "Specular Color" : { 
+                  "h" : "0.07936499", 
+                  "s" : "0.2999999", 
+                  "v" : "0.2745098"
+               }, 
+               "Subsurface Color" : { 
+                  "h" : "0", 
+                  "s" : "0.2509804", 
+                  "v" : "1"
+               }
+            }, 
+            { 
+               "id" : "irises", 
+               "Specular Intensity" : "5.526", 
+               "Diffuse Color" : { 
+                  "h" : "0.4303797", 
+                  "s" : "0.4937499", 
+                  "v" : "0.627451"
+               }
+            }, 
+            { 
+               "id" : "sclera", 
+               "Specular Color" : { 
+                  "h" : "0.5584416", 
+                  "s" : "0.3019608", 
+                  "v" : "1"
+               }
+            }, 
+            { 
+               "id" : "plugin#0_MacGruber.Breathing", 
+               "Breath Dataset" : "Candy Nose", 
+               "Orgasm Dataset" : "Candy Orgasm Soft"
+            }, 
+            { 
+               "id" : "plugin#0_MacGruber.Gaze", 
+               "Gaze Duration" : "0.3"
+            }, 
+            { 
+               "id" : "skin", 
+               "Face" : "D", 
+               "Nails" : "Purple", 
+               "Specular Color" : { 
+                  "h" : "0.5797102", 
+                  "s" : "0.117347", 
+                  "v" : "0.7686275"
+               }, 
+               "Subsurface Color" : { 
+                  "h" : "0.06976748", 
+                  "s" : "0.1869566", 
+                  "v" : "0.9019608"
+               }
+            }, 
+            { 
+               "id" : "HeatUpSkirtSimMaterial", 
+               "Specular Texture Offset" : "0.0900358", 
+               "Gloss" : "8", 
+               "Gloss Texture Offset" : "0.8936822", 
+               "Main Texture" : "Blue", 
+               "Diffuse Color" : { 
+                  "h" : "0.6360383", 
+                  "s" : "0", 
+                  "v" : "1"
+               }
+            }, 
+            { 
+               "id" : "HeatUpSkirtMetalSimMaterial", 
+               "Diffuse Color" : { 
+                  "h" : "0.09523813", 
+                  "s" : "0.2916665", 
+                  "v" : "0.0941176"
+               }
+            }, 
+            { 
+               "id" : "HeatUpTopMaterial", 
+               "Specular Texture Offset" : "0.0900358", 
+               "Gloss" : "8", 
+               "Gloss Texture Offset" : "0.8936822", 
+               "Main Texture" : "Blue"
+            }, 
+            { 
+               "id" : "HeatUpTopMetalMaterial", 
+               "Diffuse Color" : { 
+                  "h" : "0.09523813", 
+                  "s" : "0.2916665", 
+                  "v" : "0.0941176"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/ToggleUIButton", 
+         "on" : "true", 
+         "type" : "UIButton", 
+         "parentAtom" : "3PointLightSetup/UIContainer", 
+         "position" : { 
+            "x" : "1.4", 
+            "y" : "1", 
+            "z" : "4.768372E-07"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "-1.536792E-05", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.8499997", 
+            "y" : "1.35", 
+            "z" : "-1"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "AtomControl", 
+               "hidden" : "true"
+            }, 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "Text", 
+               "fontSize" : "60", 
+               "text" : "Toggle UI"
+            }, 
+            { 
+               "id" : "Canvas", 
+               "xSize" : "330", 
+               "ySize" : "100"
+            }, 
+            { 
+               "id" : "TextColor", 
+               "color" : { 
+                  "h" : "0", 
+                  "s" : "0", 
+                  "v" : "0.1985294"
+               }
+            }, 
+            { 
+               "id" : "Trigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                     { 
+                        "receiverAtom" : "3PointLightSetup/UIControlsContainer", 
+                        "receiver" : "AtomControl", 
+                        "receiverTargetName" : "ToggleOn"
+                     }
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "position" : { 
+                  "x" : "-0.8499997", 
+                  "y" : "1.35", 
+                  "z" : "-1"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "14.99999", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }, 
+      { 
+         "id" : "3PointLightSetup/UIControlsContainer", 
+         "on" : "true", 
+         "type" : "Empty", 
+         "parentAtom" : "3PointLightSetup/UIContainer", 
+         "position" : { 
+            "x" : "0.5000004", 
+            "y" : "1", 
+            "z" : "3.576279E-07"
+         }, 
+         "rotation" : { 
+            "x" : "0", 
+            "y" : "-1.536792E-05", 
+            "z" : "0"
+         }, 
+         "containerPosition" : { 
+            "x" : "-0.8499995", 
+            "y" : "1.3", 
+            "z" : "-1"
+         }, 
+         "containerRotation" : { 
+            "x" : "0", 
+            "y" : "14.99999", 
+            "z" : "0"
+         }, 
+         "storables" : [ 
+            { 
+               "id" : "AtomControl", 
+               "hidden" : "true"
+            }, 
+            { 
+               "id" : "CollisionTrigger", 
+               "trigger" : { 
+                  "startActions" : [ 
+                  ], 
+                  "transitionActions" : [ 
+                  ], 
+                  "endActions" : [ 
+                  ]
+               }
+            }, 
+            { 
+               "id" : "PluginManager", 
+               "plugins" : { 
+               }
+            }, 
+            { 
+               "id" : "control", 
+               "position" : { 
+                  "x" : "-0.8499994", 
+                  "y" : "1.3", 
+                  "z" : "-1"
+               }, 
+               "rotation" : { 
+                  "x" : "0", 
+                  "y" : "14.99999", 
+                  "z" : "0"
+               }
+            }
+         ]
+      }
+   ]
+}
